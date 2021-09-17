@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Has output their name",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "",
+      "output": "My name is (?!YOUR NAME HERE)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
